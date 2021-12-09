@@ -1,0 +1,121 @@
+:root {
+
+    --vermelho: red;
+    --preto: black;
+    --branco::
+     
+}
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+
+  background-color:var(--preto);
+  color:white;
+      
+}
+
+header .container {
+
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+
+}
+header .logo{
+    margin-left: 5px;
+    font-family: Arial black; 
+    color: var(--vermelho);
+    font-size: 50px;
+
+
+}
+
+header nav a{
+    
+    color:white;
+    text-decoration: none; 
+    font-family:Arial;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.filmeprincipal{
+
+    background: url(../netflix/imagem/fundoFash.png);
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+        
+}
+
+.descricao{
+
+    margin-bottom:40px;
+}
+ .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+background-color: white;
+color: black;
+
+}
+
+.botao i{
+margin-right: 10px;
+
+}
+.container{
+    margin-left: 20px;
+}
+
+.filmeprincipal .container{
+
+        width: 70%;
+
+}
+
+.box-filmes{
+height: 100%;
+width: 100%;
+display: block;
+
+}
+
+.aba-titulos{
+
+    margin-top: 20px;
+}
+
+
+
+.player {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
